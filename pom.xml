@@ -123,7 +123,7 @@
                 <version>3.1.2</version>
                 <configuration>
                     <includes>
-                        <include>**/_04_RunnerForGroups.java</include>
+                        <include>**/_01_RunnersIntro.java</include>
                     </includes>
                 </configuration>
             </plugin>
