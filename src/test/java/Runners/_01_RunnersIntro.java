@@ -7,7 +7,8 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/java/FeatureFiles/_01_Login.feature",
         tags = "@Smoke",
         glue = "StepDefinitions",
-        plugin = {"json:target/cucumber/cucumber.json"}
+        plugin = {"json:target/cucumber.json"}
+
 )
 public class _01_RunnersIntro extends AbstractTestNGCucumberTests {
 }
